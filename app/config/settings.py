@@ -1,8 +1,5 @@
 import os
 from dotenv import load_dotenv
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy.ext.declarative import declarative_base
 from pathlib import Path
 from pydantic_settings import BaseSettings
 import urllib.parse
